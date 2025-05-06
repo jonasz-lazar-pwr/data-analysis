@@ -14,6 +14,7 @@ Repozytorium zawiera rozwiązania zadań oraz analizy danych realizowane w ramac
 - [Lista 2 – Testowanie hipotez statystycznych](#lista-2--testowanie-hipotez-statystycznych)
 - [Lista 3 – Testy normalności rozkładu](#lista-3--testy-normalności-rozkładu)
 - [Lista 4 – Testy t-Studenta i test Manna-Whitneya](#lista-4--testy-t-studenta-i-test-manna-whitneya)
+- [Lista 5 – Testy nieparametryczne dla prób zależnych](#lista-5--testy-nieparametryczne-dla-prób-zależnych)
 
 ## Lista 1 – Podstawy MATLABa i operacje na danych
 
@@ -64,4 +65,16 @@ Zestaw ćwiczeń poświęcony porównywaniu średnich w dwóch grupach (lub jedn
 - test Manna-Whitneya jako nieparametryczna alternatywa dla testu t przy naruszeniu założeń,
 - funkcje MATLAB: `ttest`, `ttest2`, `vartest`, `levene`, `mwwtest`,
 - praktyczne przykłady: różnice we wzroście, skuteczność kursu pisania, aktywność gestykulacyjna, temperatura ciała.
+
+## Lista 5 – Testy nieparametryczne dla prób zależnych
+
+Lista koncentruje się na nieparametrycznych metodach analizy danych dla prób zależnych – alternatywach dla testu t-Studenta, gdy nie są spełnione jego założenia. Obejmuje:
+
+- test znaków (`signtest`) – analiza tylko znaków różnic,
+- test kolejności par Wilcoxona (`signrank`, `ranksum`) – uwzględnia znak i wartość różnicy,
+- test McNemary – dla danych binarnych,
+- porównania dwóch pomiarów u tych samych osób (np. przed i po zabiegu, diecie, zmianie sytuacji),
+- przykłady z użyciem danych rzeczywistych (np. `czytelnictwo.csv`, `chmiel.csv`, `Dane z koronografii.csv`),
+- interpretację wyników p-value i decyzji statystycznych w MATLABie,
+- zastosowanie hipotez jednostronnych i dwustronnych w testach nieparametrycznych.
 
