@@ -19,6 +19,7 @@ Repozytorium zawiera rozwiązania zadań oraz analizy danych realizowane w ramac
 - [Lista 7 – Wstępne przygotowanie danych (kredyty)](#lista-7--wstępne-przygotowanie-danych-kredyty)
 - [Lista 8 – Przetwarzanie danych w Weka GUI i Pythonie](#lista-8--przetwarzanie-danych-w-weka-gui-i-pythonie)
 - [Lista 9 – Selekcja cech](#lista-9--selekcja-cech)
+- [Lista 10 – Klasyfikacja i ocena jakości klasyfikatorów](#lista-10--klasyfikacja-i-ocena-jakości-klasyfikatorów)
 
 ## Lista 1 – Podstawy MATLABa i operacje na danych
 
@@ -127,3 +128,13 @@ Lista poświęcona zagadnieniom selekcji cech w zbiorze danych, z wykorzystaniem
 - implementację własnej wersji `GainRatioAttributeEval` w Pythonie, z wyliczeniem entropii, InfoGain i SplitInfo dla każdego atrybutu,
 - porównanie wyników Weki i Pythona, analiza różnic wynikających z podejścia do dyskretyzacji i typu logarytmu.
 
+## Lista 10 – Klasyfikacja i ocena jakości klasyfikatorów
+
+Lista poświęcona analizie skuteczności klasyfikatorów z użyciem własnej implementacji walidacji krzyżowej. Zakres materiału obejmuje:
+
+- klasyfikację instancji na podstawie danych wejściowych (budowa modelu + predykcja),
+- implementację własnej procedury walidacji krzyżowej z liczbą foldów i powtórzeń,
+- porównanie klasyfikatorów: ZeroRule, DecisionTree, SVM, MLP, NaiveBayes,
+- wyliczanie i interpretację wskaźników jakości: Accuracy, TPR, TNR, GMean, AUC,
+- wyznaczenie najlepszego modelu pod względem skuteczności klasyfikacji „złych” klientów (klasa pozytywna),
+- implementację w Pythonie z wykorzystaniem bibliotek `scikit-learn` i `liac-arff`.
