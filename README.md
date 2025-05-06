@@ -15,6 +15,7 @@ Repozytorium zawiera rozwiązania zadań oraz analizy danych realizowane w ramac
 - [Lista 3 – Testy normalności rozkładu](#lista-3--testy-normalności-rozkładu)
 - [Lista 4 – Testy t-Studenta i test Manna-Whitneya](#lista-4--testy-t-studenta-i-test-manna-whitneya)
 - [Lista 5 – Testy nieparametryczne dla prób zależnych](#lista-5--testy-nieparametryczne-dla-prób-zależnych)
+- [Lista 6 – Analiza wariancji (ANOVA)](#lista-6--analiza-wariancji-anova)
 
 ## Lista 1 – Podstawy MATLABa i operacje na danych
 
@@ -77,4 +78,16 @@ Lista koncentruje się na nieparametrycznych metodach analizy danych dla prób z
 - przykłady z użyciem danych rzeczywistych (np. `czytelnictwo.csv`, `chmiel.csv`, `Dane z koronografii.csv`),
 - interpretację wyników p-value i decyzji statystycznych w MATLABie,
 - zastosowanie hipotez jednostronnych i dwustronnych w testach nieparametrycznych.
+
+## Lista 6 – Analiza wariancji (ANOVA)
+
+Lista poświęcona metodom analizy wariancji – zarówno parametrycznym (ANOVA), jak i nieparametrycznym (Kruskal-Wallis, Friedman). Zakres materiału obejmuje:
+
+- jednoczynnikową analizę wariancji (one-way ANOVA) z użyciem `anova1`,
+- analizę post-hoc (`multcompare`) w celu identyfikacji grup różniących się istotnie,
+- dwuczynnikową analizę wariancji (two-way ANOVA) z użyciem `anova2`,
+- testy nieparametryczne: Kruskala-Wallisa (`kruskalwallis`) i Friedmana (`friedman`),
+- weryfikację założeń ANOVA: normalność rozkładu, równość wariancji, niezależność prób,
+- interpretację wyników testów statystycznych (wartości p, F, przedziały ufności),
+- ćwiczenia praktyczne na danych rzeczywistych (`koala`, `wombats`, `popcorn`, `FEV`, itp.).
 
