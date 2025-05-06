@@ -16,6 +16,7 @@ Repozytorium zawiera rozwiązania zadań oraz analizy danych realizowane w ramac
 - [Lista 4 – Testy t-Studenta i test Manna-Whitneya](#lista-4--testy-t-studenta-i-test-manna-whitneya)
 - [Lista 5 – Testy nieparametryczne dla prób zależnych](#lista-5--testy-nieparametryczne-dla-prób-zależnych)
 - [Lista 6 – Analiza wariancji (ANOVA)](#lista-6--analiza-wariancji-anova)
+- [Lista 7 – Wstępne przygotowanie danych (kredyty)](#lista-7--wstępne-przygotowanie-danych-kredyty)
 
 ## Lista 1 – Podstawy MATLABa i operacje na danych
 
@@ -90,4 +91,15 @@ Lista poświęcona metodom analizy wariancji – zarówno parametrycznym (ANOVA)
 - weryfikację założeń ANOVA: normalność rozkładu, równość wariancji, niezależność prób,
 - interpretację wyników testów statystycznych (wartości p, F, przedziały ufności),
 - ćwiczenia praktyczne na danych rzeczywistych (`koala`, `wombats`, `popcorn`, `FEV`, itp.).
+
+## Lista 7 – Wstępne przygotowanie danych (kredyty)
+
+Lista poświęcona wstępnemu przetwarzaniu rzeczywistych danych kredytowych w Excelu oraz przygotowaniu ich do dalszej analizy w środowisku Weka. Zakres obejmuje:
+
+- przekształcanie atrybutów datowych i liczbowych z wykorzystaniem funkcji Excela (`IF`, `MID`, `YEAR`, `MONTH`, `MOD`, `DATEDIF`),
+- wyznaczenie zmiennych pochodnych: wiek, płeć, długość zatrudnienia, opóźnienie spłaty kredytu,
+- tworzenie zmiennych opisowych na podstawie PESEL oraz statusu kredytowego,
+- przygotowanie finalnego zbioru cech do analizy decyzyjnej (XLS i ARFF),
+- walidacja struktury danych poprzez import do GUI Weki.
+- przygotowanie gotowego zbioru `.arff` do klasyfikacji klientów w kontekście ryzyka kredytowego.
 
