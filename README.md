@@ -1,6 +1,6 @@
-# Data Analysis
+# Data Analysis – Zadania z analizy danych i statystyki
 
-Repozytorium zawiera rozwiązania zadań oraz analizy danych realizowane w ramach zajęć akademickich. Każda lista zadań została umieszczona w osobnym katalogu, który zawiera:
+Repozytorium zawiera rozwiązania zadań i analizy danych realizowane w ramach zajęć akademickich z zakresu statystyki, eksploracji danych i uczenia maszynowego (MATLAB, Python, Weka). Każda lista zadań została umieszczona w osobnym katalogu, który zawiera:
 
 - dokumentację i instrukcje (`/docs`),
 - dane wejściowe (`/data`),
@@ -49,7 +49,7 @@ Wprowadzenie do testowania hipotez statystycznych, w tym hipotezy zerowej (H0) i
 
 ## Lista 3 – Testy normalności rozkładu
 
-Lista poświęcona testowaniu zgodności danych z rozkładem normalnym, co jest istotnym założeniem wielu testów parametrycznych. Zakres materiału obejmuje:
+Lista dotyczy sprawdzania zgodności danych z rozkładem normalnym – kluczowego założenia wielu testów parametrycznych. Zakres materiału obejmuje:
 
 - test Kołmogorowa-Smirnowa (K-S), w tym z poprawką Lillieforsa,
 - test Shapiro-Wilka (preferowany przy małych próbach),
@@ -114,8 +114,8 @@ Lista obejmuje przetwarzanie danych w narzędziu Weka oraz programistycznie (Pyt
 - redukcja liczby klas atrybutu `status_pożyczki` do dwóch: `dobry` i `zły`,
 - usunięcie zbędnych atrybutów i zmiana ich kolejności,
 - dyskretyzacja zmiennej `wiek` do pięciu przedziałów,
-- zapis przetworzonego zbioru jako `XXXXX_L3_1.arff`,
-- implementacja skryptu Pythona do przetwarzania kolumn i rekordów oraz generowania zbioru wynikowego jako `XXXXX_L3_2.arff`.
+- zapis przetworzonego zbioru,
+- implementacja skryptu Pythona do przetwarzania kolumn i rekordów oraz generowania zbioru wynikowego.
 
 ## Lista 9 – Selekcja cech
 
@@ -124,7 +124,7 @@ Lista poświęcona zagadnieniom selekcji cech w zbiorze danych, z wykorzystaniem
 - dyskretyzację zmiennych numerycznych (nadzorowaną) w środowisku Weka,
 - wykorzystanie metod opartych na entropii: `GainRatioAttributeEval` i `InfoGainAttributeEval`,
 - identyfikację cech spełniających zadany próg istotności (wartość większa niż 0.001),
-- posortowanie cech według wartości GainRatio i zapis przefiltrowanego zbioru jako `XXXXX_L4_1.arff`,
+- posortowanie cech według wartości GainRatio i zapis przefiltrowanego zbioru,
 - implementację własnej wersji `GainRatioAttributeEval` w Pythonie, z wyliczeniem entropii, InfoGain i SplitInfo dla każdego atrybutu,
 - porównanie wyników Weki i Pythona, analiza różnic wynikających z podejścia do dyskretyzacji i typu logarytmu.
 
@@ -138,3 +138,22 @@ Lista poświęcona analizie skuteczności klasyfikatorów z użyciem własnej im
 - wyliczanie i interpretację wskaźników jakości: Accuracy, TPR, TNR, GMean, AUC,
 - wyznaczenie najlepszego modelu pod względem skuteczności klasyfikacji „złych” klientów (klasa pozytywna),
 - implementację w Pythonie z wykorzystaniem bibliotek `scikit-learn` i `liac-arff`.
+
+## 🔧 Wymagania
+
+Do uruchomienia projektów i analiz wymagane są:
+
+- MATLAB R2022a:
+  - Statistics and Machine Learning Toolbox
+- Weka 3.8 lub nowsza (GUI + biblioteka programistyczna)
+- Python 3.11
+  - Zależności (można zainstalować przez `requirements.txt`):
+    - `numpy`
+    - `pandas`
+    - `scikit-learn`
+    - `matplotlib`
+    - `liac-arff`
+
+## 📝 Licencja
+
+Ten projekt jest udostępniany na warunkach licencji **MIT**. Szczegóły znajdują się w pliku [LICENSE](LICENSE).
