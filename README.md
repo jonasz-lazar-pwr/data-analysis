@@ -18,6 +18,7 @@ Repozytorium zawiera rozwiązania zadań oraz analizy danych realizowane w ramac
 - [Lista 6 – Analiza wariancji (ANOVA)](#lista-6--analiza-wariancji-anova)
 - [Lista 7 – Wstępne przygotowanie danych (kredyty)](#lista-7--wstępne-przygotowanie-danych-kredyty)
 - [Lista 8 – Przetwarzanie danych w Weka GUI i Pythonie](#lista-8--przetwarzanie-danych-w-weka-gui-i-pythonie)
+- [Lista 9 – Selekcja cech](#lista-9--selekcja-cech)
 
 ## Lista 1 – Podstawy MATLABa i operacje na danych
 
@@ -115,4 +116,14 @@ Lista obejmuje przetwarzanie danych w narzędziu Weka oraz programistycznie (Pyt
 - zapis przetworzonego zbioru jako `XXXXX_L3_1.arff`,
 - implementacja skryptu Pythona do przetwarzania kolumn i rekordów oraz generowania zbioru wynikowego jako `XXXXX_L3_2.arff`.
 
+## Lista 9 – Selekcja cech
+
+Lista poświęcona zagadnieniom selekcji cech w zbiorze danych, z wykorzystaniem narzędzia Weka oraz własnej implementacji w Pythonie. Zakres materiału obejmuje:
+
+- dyskretyzację zmiennych numerycznych (nadzorowaną) w środowisku Weka,
+- wykorzystanie metod opartych na entropii: `GainRatioAttributeEval` i `InfoGainAttributeEval`,
+- identyfikację cech spełniających zadany próg istotności (wartość większa niż 0.001),
+- posortowanie cech według wartości GainRatio i zapis przefiltrowanego zbioru jako `XXXXX_L4_1.arff`,
+- implementację własnej wersji `GainRatioAttributeEval` w Pythonie, z wyliczeniem entropii, InfoGain i SplitInfo dla każdego atrybutu,
+- porównanie wyników Weki i Pythona, analiza różnic wynikających z podejścia do dyskretyzacji i typu logarytmu.
 
