@@ -17,6 +17,7 @@ Repozytorium zawiera rozwiązania zadań oraz analizy danych realizowane w ramac
 - [Lista 5 – Testy nieparametryczne dla prób zależnych](#lista-5--testy-nieparametryczne-dla-prób-zależnych)
 - [Lista 6 – Analiza wariancji (ANOVA)](#lista-6--analiza-wariancji-anova)
 - [Lista 7 – Wstępne przygotowanie danych (kredyty)](#lista-7--wstępne-przygotowanie-danych-kredyty)
+- [Lista 8 – Przetwarzanie danych w Weka GUI i Pythonie](#lista-8--przetwarzanie-danych-w-weka-gui-i-pythonie)
 
 ## Lista 1 – Podstawy MATLABa i operacje na danych
 
@@ -102,4 +103,16 @@ Lista poświęcona wstępnemu przetwarzaniu rzeczywistych danych kredytowych w E
 - przygotowanie finalnego zbioru cech do analizy decyzyjnej (XLS i ARFF),
 - walidacja struktury danych poprzez import do GUI Weki.
 - przygotowanie gotowego zbioru `.arff` do klasyfikacji klientów w kontekście ryzyka kredytowego.
+
+## Lista 8 – Przetwarzanie danych w Weka GUI i Pythonie
+
+Lista obejmuje przetwarzanie danych w narzędziu Weka oraz programistycznie (Python). Zakres działań obejmuje:
+
+- otwarcie zbioru `.arff` z poprzedniej listy w GUI Weki,
+- redukcja liczby klas atrybutu `status_pożyczki` do dwóch: `dobry` i `zły`,
+- usunięcie zbędnych atrybutów i zmiana ich kolejności,
+- dyskretyzacja zmiennej `wiek` do pięciu przedziałów,
+- zapis przetworzonego zbioru jako `XXXXX_L3_1.arff`,
+- implementacja skryptu Pythona do przetwarzania kolumn i rekordów oraz generowania zbioru wynikowego jako `XXXXX_L3_2.arff`.
+
 
