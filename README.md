@@ -13,6 +13,7 @@ Repozytorium zawiera rozwiązania zadań oraz analizy danych realizowane w ramac
 - [Lista 1 – Podstawy MATLABa i operacje na danych](#lista-1--podstawy-matlaba-i-operacje-na-danych)
 - [Lista 2 – Testowanie hipotez statystycznych](#lista-2--testowanie-hipotez-statystycznych)
 - [Lista 3 – Testy normalności rozkładu](#lista-3--testy-normalności-rozkładu)
+- [Lista 4 – Testy t-Studenta i test Manna-Whitneya](#lista-4--testy-t-studenta-i-test-manna-whitneya)
 
 ## Lista 1 – Podstawy MATLABa i operacje na danych
 
@@ -51,4 +52,16 @@ Lista poświęcona testowaniu zgodności danych z rozkładem normalnym, co jest 
 - zastosowanie funkcji `kstest`, `kstest2`, `lillietest`, `swtest`, `normcdf`, `qqplot` w MATLABie,
 - interpretacja p-value i statystyk testowych dla różnych scenariuszy,
 - przykłady praktyczne: analiza rozkładów wzrostu, czasu zużycia żarówek, pojemności kondensatorów, preferencji pszczół, itp.
+
+## Lista 4 – Testy t-Studenta i test Manna-Whitneya
+
+Zestaw ćwiczeń poświęcony porównywaniu średnich w dwóch grupach (lub jednej grupy względem wartości referencyjnej) oraz alternatywnej metodzie nieparametrycznej. Zakres materiału obejmuje:
+
+- test t-Studenta dla prób niezależnych, zależnych oraz jednej próby,
+- warunki stosowania testów: normalność rozkładu, równość wariancji, równoliczność grup,
+- weryfikacja założeń przy pomocy testów normalności (np. Shapiro-Wilka) i testu Levene’a,
+- interpretacja statystyki t i wartości p (dwustronnej i jednostronnej),
+- test Manna-Whitneya jako nieparametryczna alternatywa dla testu t przy naruszeniu założeń,
+- funkcje MATLAB: `ttest`, `ttest2`, `vartest`, `levene`, `mwwtest`,
+- praktyczne przykłady: różnice we wzroście, skuteczność kursu pisania, aktywność gestykulacyjna, temperatura ciała.
 
